@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Vlauma Analytics",
   "colors": {
-    "primary": "#A855F7",
-    "light": "#A855F7",
-    "dark": "#A855F7"
+    "primary": "#0C0C15",
+    "light": "#FFFFFF",
+    "dark": "#0C0C15"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,32 +14,24 @@
         "tab": "Documentation",
         "groups": [
           {
+            "group": "Welcome to Vlauma",
+            "pages": [
+              "welcome",
+            ]
+          },
+          {
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart"
+              "instalation"
             ]
           },
           {
             "group": "Features",
             "pages": [
-              "features/markdown",
-              "features/code",
-              "features/images",
-              "features/settings",
-              "features/navigation",
-              "features/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "groups": [
-          {
-            "group": "Product Updates",
-            "pages": [
-              "changelog/introduction"
+              "features/analytics",
+              "features/custom-funnels",
+              "features/custom-parameters-tracking"
             ]
           }
         ]
@@ -48,7 +40,12 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Let's Talk",
+          "anchor": "Website",
+          "href": "https://vlauma.com",
+          "icon": "globe"
+        },
+        {
+          "anchor": "Get Help",
           "href": "https://vlauma.com/support/contact",
           "icon": "support"
         },
