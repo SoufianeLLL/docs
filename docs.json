@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Vlauma Analytics",
   "colors": {
     "primary": "#0C0C15",
@@ -9,31 +9,27 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "tabs": [
+    "pages": [
+      "overview",
+      "quickstart",
+      "advanced/components",
+      "advanced/integrations"
+    ],
+    "groups": [
       {
-        "groups": [
+        "group": "Getting Started",
+        "pages": [
+          "quickstart",
           {
-            "group": "Welcome to Vlauma",
-            "pages": [
-              "welcome"
-            ]
-          },
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "instalation"
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": [
-              "features/analytics",
-              "features/custom-funnels",
-              "features/custom-parameters-tracking"
-            ]
+            "group": "Editing",
+            "icon": "pen-paintbrush",
+            "pages": ["development", "web-editor"]
           }
         ]
+      },
+      {
+        "group": "Writing Content",
+        "pages": ["writing-content/page", "writing-content/text"]
       }
     ],
     "global": {
@@ -52,6 +48,30 @@
           "anchor": "FAQs",
           "href": "https://vlauma.com/faqs",
           "icon": "newspaper"
+        }
+      ],
+      "dropdowns": [
+        {
+          "dropdown": "Documentation",
+          "icon": "book-open",
+          "pages": [
+            "quickstart",
+            "development",
+            "navigation"
+          ]
+        },
+        {
+          "dropdown": "API References",
+          "icon": "sqaure-terminal",
+          "pages": [
+            "api-reference/get",
+            "api-reference/post",
+            "api-reference/delete"
+          ]
+        },
+        {
+          "dropdown": "Blog",
+          "href": "https://external-link.com/blog"
         }
       ]
     }
