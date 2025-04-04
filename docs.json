@@ -17,7 +17,7 @@
             "group": "Get Started",
             "pages": [
               "introduction",
-              "quickstart",
+              "quickstart"
             ]
           },
           {
@@ -56,7 +56,7 @@
           "anchor": "FAQs",
           "href": "https://vlauma.com/faqs",
           "icon": "newspaper"
-        },
+        }
       ]
     }
   },
