@@ -1,55 +1,45 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Vlauma Analytics",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#A855F7",
+    "light": "#A855F7",
+    "dark": "#A855F7"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Get Started",
             "pages": [
               "introduction",
               "quickstart",
-              "development"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Features",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "features/markdown",
+              "features/code",
+              "features/images",
+              "features/settings",
+              "features/navigation",
+              "features/reusable-snippets"
             ]
           }
         ]
       },
       {
-        "tab": "API Reference",
+        "tab": "Changelog",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Product Updates",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "changelog/introduction"
             ]
           }
         ]
@@ -58,20 +48,15 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Let's Talk",
+          "href": "https://vlauma.com/support/contact",
+          "icon": "support"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
+          "anchor": "FAQs",
+          "href": "https://vlauma.com/faqs",
           "icon": "newspaper"
-        }
+        },
       ]
     }
   },
@@ -83,20 +68,20 @@
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:support@vlauma.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://vlauma.com/dashboard"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/vlauma",
+      "facebook": "https://github.com/vlaumacom",
+      "linkedin": "https://linkedin.com/company/vlauma"
     }
   }
 }
